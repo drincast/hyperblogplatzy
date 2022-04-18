@@ -14,7 +14,7 @@ git log | git log [nombre archivo]
 git log --stat
 git checkout: traer cambio realizados
 
--- movernos en los cambios
+-- movernos en la historia
 git checkout [id del commit]
 git reset --hard  {borra todo lo que este en el staging y la de trabajo, sin posibilidad de recuperarlo}
 git reset --mixed  {borra hasta el stagin, sin posibilidad de recuperarlo}
