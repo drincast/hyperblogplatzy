@@ -1,1 +1,3 @@
 esta es historia 2
+
+este cambio no va al head por el momento, ahora si va al master
