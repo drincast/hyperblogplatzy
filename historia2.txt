@@ -22,3 +22,7 @@ git reset --soft  {borra todo lo que este en el staging, sin posibilidad de recu
 git reset HEAD [nombre archivo] - quita el archivo del staging
 git rm --cached [nombre archivo] - quita el archivo del staging, pero queda en las versiones anteriores
 git rm --force [nombre archivo] - quita el archivo del staging y del disco
+
+-- trabajar con repositorios remotos
+git push {envia los cambios al repositorio remoto}
+git pull {obtiene los cambios de repositorio remoto, realiza un mefetch en el repositorio local y un merge en el area de trabajo}
