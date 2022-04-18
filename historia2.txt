@@ -1,3 +1,24 @@
 esta es historia 2
 
 este cambio no va al head por el momento, ahora si va al master
+
+-- basico local
+git init
+git config --list
+git config email "email@email.com" | git config --global email "email@email.com"
+git config name "nombre" | git config --global name "nombre"
+git add [nombre archivo] | git add .
+git commit -m "[mensaje]"
+git status
+git log | git log [nombre archivo]
+git log --stat
+git checkout: traer cambio realizados
+
+-- movernos en los cambios
+git checkout [id del commit]
+git reset --hard  {borra todo lo que este en el staging y la de trabajo, sin posibilidad de recuperarlo}
+git reset --mixed  {borra hasta el stagin, sin posibilidad de recuperarlo}
+git reset --soft  {borra todo lo que este en el staging, sin posibilidad de recuperarlo}
+git reset HEAD [nombre archivo] - quita el archivo del staging
+git rm --cached [nombre archivo] - quita el archivo del staging, pero queda en las versiones anteriores
+git rm --force [nombre archivo] - quita el archivo del staging y del disco
