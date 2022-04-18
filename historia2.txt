@@ -24,5 +24,6 @@ git rm --cached [nombre archivo] - quita el archivo del staging, pero queda en l
 git rm --force [nombre archivo] - quita el archivo del staging y del disco
 
 -- trabajar con repositorios remotos
+git clone [url del repositorio] -- clona un repositorio remoto
 git push {envia los cambios al repositorio remoto}
 git pull {obtiene los cambios de repositorio remoto, realiza un mefetch en el repositorio local y un merge en el area de trabajo}
