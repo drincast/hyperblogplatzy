@@ -31,4 +31,5 @@ git pull {obtiene los cambios de repositorio remoto, realiza un mefetch en el re
 --trabajo con ramas
 git branch [nombre rama] -- crea una rama nueva
 git checkout [nombre rama] -- establece la rama de trabajo
+git merge [nombre rama a integrar] -- mezcla los cambios de una rama a la rama de trabajo (rama activa)
 
