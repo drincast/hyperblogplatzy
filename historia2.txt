@@ -27,3 +27,8 @@ git rm --force [nombre archivo] - quita el archivo del staging y del disco
 git clone [url del repositorio] -- clona un repositorio remoto
 git push {envia los cambios al repositorio remoto}
 git pull {obtiene los cambios de repositorio remoto, realiza un mefetch en el repositorio local y un merge en el area de trabajo}
+
+--trabajo con ramas
+git branch [nombre rama] -- crea una rama nueva
+git checkout [nombre rama] -- establece la rama de trabajo
+
