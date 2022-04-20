@@ -34,3 +34,6 @@ git branch [nombre rama] -- crea una rama nueva
 git checkout [nombre rama] -- establece la rama de trabajo
 git merge [nombre rama a integrar] -- mezcla los cambios de una rama a la rama de trabajo (rama activa)
 
+--repositorios remotos
+git remote [-v] -- ver si tiene un enlace a un repositorio remoto
+git remote add [nombre remoto] [url remota] -- enlaza el repositorio remoto al repositorio local
