@@ -29,6 +29,7 @@ git push {envia los cambios al repositorio remoto}
 git pull {obtiene los cambios de repositorio remoto, realiza un mefetch en el repositorio local y un merge en el area de trabajo}
 
 --trabajo con ramas
+git branch -- despliega la lista de ramas creadas, e indica cual es la activa
 git branch [nombre rama] -- crea una rama nueva
 git checkout [nombre rama] -- establece la rama de trabajo
 git merge [nombre rama a integrar] -- mezcla los cambios de una rama a la rama de trabajo (rama activa)
