@@ -37,3 +37,4 @@ git merge [nombre rama a integrar] -- mezcla los cambios de una rama a la rama d
 --repositorios remotos
 git remote [-v] -- ver si tiene un enlace a un repositorio remoto
 git remote add [nombre remoto] [url remota] -- enlaza el repositorio remoto al repositorio local
+git remote rm [nombre remoto] -- elimina un enlace remoto
