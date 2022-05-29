@@ -34,6 +34,10 @@ git branch -- despliega la lista de ramas creadas, e indica cual es la activa
 git branch [nombre rama] -- crea una rama nueva
 git checkout [nombre rama] -- establece la rama de trabajo
 git merge [nombre rama a integrar] -- mezcla los cambios de una rama a la rama de trabajo (rama activa)
+git show-branch
+git show-branch --all
+git push origin [nombre branch]     [envia un branch al repositorio remoto]
+gitk        [abre app de git para mostrar historia del repositorio]
 
 --repositorios remotos
 git remote [-v] -- ver si tiene un enlace a un repositorio remoto
@@ -82,3 +86,6 @@ Haz lo siguiente:
     git tag
     git tag show-ref --tags   [ver enlace del tag con commit]
     git tag -a [nombretag] -m "mensaje" [hast proteccion]
+    git push origin --tags
+    git tag -d [nombretag]      [eliminar un tag]
+    git push origin :refs/tags/[nombre tag a borrar]      [eliminar un tag en repo remoto]
