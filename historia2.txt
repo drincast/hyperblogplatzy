@@ -12,6 +12,7 @@ git commit -m "[mensaje]"
 git status
 git log | git log [nombre archivo]
 git log --stat
+git log --all --graph --decorate --oneline
 git checkout: traer cambio realizados
 
 -- movernos en la historia
@@ -75,3 +76,9 @@ Haz lo siguiente:
 
     Agrega tu llave
     ssh-add -K ~/.ssh/id_rsa
+
+
+    -- Tags y versiones
+    git tag
+    git tag show-ref --tags   [ver enlace del tag con commit]
+    git tag -a [nombretag] -m "mensaje" [hast proteccion]
