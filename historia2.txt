@@ -50,7 +50,9 @@ ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 
 Comprobar proceso y agregarlo (Windows)
 
-    eval $(ssh-agent - s)
+    eval $(ssh-agent -s)
+    si sale: No such file or directory, se debe niciar el servicio (win: OpenSSH Authentication Agent)
+
     ssh-add ~/.ssh/id_rsa
 
 Comprobar proceso y agregarlo (Mac)
