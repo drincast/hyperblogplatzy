@@ -93,3 +93,17 @@ Haz lo siguiente:
 
     -- agregar colaboradores en proyecto git hub
     ir a setting del proyecto, ir a collaborators, buscar por email o por usuario github, agregar.
+
+    -- trabajando con github
+    hacer un fork --> copiar todo un proyecto (con ramas y historia) a un repositorio personal de github
+    -hacer fork remoto desde consola.
+    git remote add [nombre_repo_remoto] [url_repo_remoto]
+        ej: git remote upstream https://github.com/freddier/hyperblog
+    
+    -para mantener actualizado el fork
+    hacer pull en el remoto [ej: upstream] y hacer merge a la rama local y luego push al remoto del fork.
+
+    -para hacer una aportacion al proyecto original
+    Se realiza un pull request desde el fork indicando los cambios, y se espera a que sea revisado y aprobado.
+    -Video 29 pt.
+    
