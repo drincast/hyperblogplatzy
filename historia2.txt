@@ -39,6 +39,7 @@ git show-branch --all
 git push origin [nombre branch]     [envia un branch al repositorio remoto]
 gitk        [abre app de git para mostrar historia del repositorio]
 
+
 --repositorios remotos
 git remote [-v] -- ver si tiene un enlace a un repositorio remoto
 git remote add [nombre remoto] [url remota] -- enlaza el repositorio remoto al repositorio local
@@ -89,3 +90,6 @@ Haz lo siguiente:
     git push origin --tags
     git tag -d [nombretag]      [eliminar un tag]
     git push origin :refs/tags/[nombre tag a borrar]      [eliminar un tag en repo remoto]
+
+    -- agregar colaboradores en proyecto git hub
+    ir a setting del proyecto, ir a collaborators, buscar por email o por usuario github, agregar.
